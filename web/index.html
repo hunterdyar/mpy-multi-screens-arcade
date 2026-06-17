@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Control</title>
+</head>
+<body>
+<h1>Game Control</h1>
+<div id="devices">
+    <ul id="devices-list">
+
+    </ul>
+</div>
+
+<input id="to-all-text"></input>
+<button id="btn-send-to-all">send to all</button>
+</body>
+<script>
+    devList = document.getElementById('devices-list');
+    btnSendToAll = document.getElementById('btn-send-to-all');
+    inputSendToAll = document.getElementById('to-all-text');
+
+    btnSendToAll.addEventListener('click', sendToAll)
+
+    devices = []
+    devices.push(
+        {
+            'ip': '192.168.0.197'
+        }
+    )
+//
+    function updatePage(){
+        devList.innerHTML = '';
+        for(let i = 0; i < devices.length; i++){
+            var li = document.createElement("li")
+            li.appendChild(document.createTextNode(devices[i].ip));
+            devList.appendChild(li);
+        }
+    }
+
+    function sendToAll(){
+        for(let i = 0; i < devices.length; i++){
+            url = 'http://'+devices[i].ip+'/?t='+inputSendToAll.value
+            console.log(url)
+            fetchAsync(url)
+        }
+    }
+
+    async function fetchAsync(url) {
+        let response = await fetch(url);
+        let data = await response.json();
+        return data;
+    }
+
+    updatePage();
+</script>
+</html>
