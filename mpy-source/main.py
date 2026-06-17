@@ -78,6 +78,9 @@ def show_params(request):
         show_text("invalid request")
         server.send("invalid request")
 
+show_text(str(sta.ifconfig()[0]))
+
+
 server = MicroPyServer()
 ''' add route '''
 server.add_route("/test", hello_world)
