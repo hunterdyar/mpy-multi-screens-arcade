@@ -1,12 +1,11 @@
 ﻿@page "/devices"
 @using arcadeServer
 @attribute [StreamRendering]
+@rendermode InteractiveServer
 @inject GameData GameData;
 <PageTitle>Devices</PageTitle>
 
 <h1>Devices</h1>
-
-<p>This component demonstrates showing data.</p>
 
 <table class="table">
         <thead>
@@ -18,10 +17,11 @@
         <tbody>
         @foreach (var device in GameData.Screens)
         {
+            var ip = device.IP;
             <tr>
                 <td>@device.IP</td>
                 <td>
-                    <button type="button" @onclick="() => GameData.RemoveScreen(device.IP)">X</button>
+                    <button type="button" @onclick="@(e=>GameData.RemoveScreen(ip))">X</button>
                 </td>
             </tr>
         }
@@ -43,23 +43,30 @@
     </div>
 </form>
 
-
+<p>@message</p>
 
 @code {
     [SupplyParameterFromForm]
     private string IpLabel { get; set; } = string.Empty;
+    private string message { get; set; } = string.Empty;
     
     private void AddDevice()
     {
-        GameData.AddScreen(new ScreenDevice()
+        message = string.Empty;
+        var uri = new UriBuilder().Host = IpLabel;
+        try
         {
-            IP = IpLabel
-        });
+            GameData.AddScreen(new ScreenDevice(new Uri($"http://{uri}")));
+        }
+        catch(Exception exception)
+        {
+            message = exception.Message;
+            Console.WriteLine(exception);
+        }
     }
     
     protected override async Task OnInitializedAsync()
     {
         
     }
-
 }

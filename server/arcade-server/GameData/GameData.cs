@@ -33,16 +33,14 @@ public class GameData
 			_screens = _screens.Append(screen).ToArray();
 			NotifyStateChanged();
 		}
-		public void RemoveScreen(ScreenDevice screen)
-		{
-			_screens = _screens.Where(s => s != screen).ToArray();
-			NotifyStateChanged();
-		}
 
 		public void RemoveScreen(string ip)
 		{
-			if(_screens == null)
+			if (_screens == null)
+			{
 				return;
+			}
+
 			_screens = _screens.Where(s => s.IP != ip).ToArray();
 			NotifyStateChanged();
 		}
