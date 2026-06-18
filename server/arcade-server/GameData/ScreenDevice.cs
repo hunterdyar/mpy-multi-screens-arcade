@@ -2,17 +2,30 @@
 
 namespace arcadeServer;
 
+[System.Serializable]
 public class ScreenDevice
 {
-	public string IP => httpClient.BaseAddress.Host.ToString() ?? "";
+	public string IP { get; set; }
 	private HttpClient httpClient;
 
+	public ScreenDevice()
+	{
+		//from deserialize?
+		if (IP != null)
+		{
+			httpClient = new HttpClient()
+			{
+				BaseAddress = new Uri(IP)
+			};
+		}
+	}
 	public ScreenDevice(Uri uri)
 	{
 		httpClient = new HttpClient()
 		{
 			BaseAddress = uri
 		};
+		IP = httpClient.BaseAddress.Host;
 	}
 	public async void SendText(string text)
 	{
