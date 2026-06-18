@@ -1,0 +1,65 @@
+﻿@page "/devices"
+@using arcadeServer
+@attribute [StreamRendering]
+@inject GameData GameData;
+<PageTitle>Devices</PageTitle>
+
+<h1>Devices</h1>
+
+<p>This component demonstrates showing data.</p>
+
+<table class="table">
+        <thead>
+        <tr>
+            <th>IP</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var device in GameData.Screens)
+        {
+            <tr>
+                <td>@device.IP</td>
+                <td>
+                    <button type="button" @onclick="() => GameData.RemoveScreen(device.IP)">X</button>
+                </td>
+            </tr>
+        }
+        </tbody>
+</table>
+
+
+
+<form method="post" @onsubmit="AddDevice" @formname="starship-plain-form">
+    <AntiforgeryToken/>
+    <div>
+        <label>
+            IP:
+            <InputText @bind-Value="IpLabel"/>
+        </label>
+    </div>
+    <div>
+        <button type="submit">Add Screen</button>
+    </div>
+</form>
+
+
+
+@code {
+    [SupplyParameterFromForm]
+    private string IpLabel { get; set; } = string.Empty;
+    
+    private void AddDevice()
+    {
+        GameData.AddScreen(new ScreenDevice()
+        {
+            IP = IpLabel
+        });
+    }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        
+    }
+
+}

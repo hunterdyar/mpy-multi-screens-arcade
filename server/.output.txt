@@ -1,0 +1,373 @@
+Command finished with exit code 0.
+Command output:
+[[31mERROR[0m] - (starship::print): Under a 'dumb' terminal (TERM=dumb).
+
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:52 AM                bin                                                                  
+d-----         6/18/2026  11:09 AM                Components                                                           
+d-----         6/18/2026  11:37 AM                GameData                                                             
+d-----         6/18/2026  11:53 AM                obj                                                                  
+d-----         6/18/2026  11:09 AM                Properties                                                           
+d-----         6/18/2026  11:09 AM                wwwroot                                                              
+-a----         6/18/2026  11:09 AM            127 appsettings.Development.json                                         
+-a----         6/18/2026  11:09 AM            151 appsettings.json                                                     
+-a----         6/18/2026  11:54 AM            386 arcade-server.csproj                                                 
+-a----         6/18/2026  11:33 AM            436 arcade-server.csproj.DotSettings                                     
+-a----         6/18/2026  11:34 AM            747 Program.cs                                                           
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\bin
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:52 AM                Debug                                                                
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\bin\Debug
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:53 AM                net9.0                                                               
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\bin\Debug\net9.0
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:09 AM            127 appsettings.Development.json                                         
+-a----         6/18/2026  11:09 AM            151 appsettings.json                                                     
+-a----         6/18/2026  11:54 AM            972 arcade-server.deps.json                                              
+-a----         6/18/2026  11:54 AM          23040 arcade-server.dll                                                    
+-a----         6/18/2026  11:54 AM         156160 arcade-server.exe                                                    
+-a----         6/18/2026  11:54 AM          34448 arcade-server.pdb                                                    
+-a----         6/18/2026  11:53 AM            416 arcade-server.runtimeconfig.json                                     
+-a----         6/18/2026  11:46 AM         201273 arcade-server.staticwebassets.endpoints.json                         
+-a----         6/18/2026  11:46 AM          14279 arcade-server.staticwebassets.runtime.json                           
+-a----          1/6/2026  11:06 PM         116224 Rssdp.dll                                                            
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\Components
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:10 AM                Layout                                                               
+d-----         6/18/2026  11:45 AM                Pages                                                                
+-a----         6/18/2026  11:09 AM            589 App.razor                                                            
+-a----         6/18/2026  11:09 AM            258 Routes.razor                                                         
+-a----         6/18/2026  11:09 AM            396 _Imports.razor                                                       
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\Components\Layout
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:09 AM            544 MainLayout.razor                                                     
+-a----         6/18/2026  11:09 AM           1940 MainLayout.razor.css                                                 
+-a----         6/18/2026  11:10 AM            855 NavMenu.razor                                                        
+-a----         6/18/2026  11:09 AM           3418 NavMenu.razor.css                                                    
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\Components\Pages
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:46 AM           1449 DeviceManager.razor                                                  
+-a----         6/18/2026  11:09 AM           1210 Error.razor                                                          
+-a----         6/18/2026  11:09 AM             97 Home.razor                                                           
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\GameData
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:46 AM            614 GameData.cs                                                          
+-a----         6/18/2026  11:46 AM            110 ScreenDevice.cs                                                      
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:09 AM                Debug                                                                
+-a----         6/18/2026  11:53 AM           3013 arcade-server.csproj.nuget.dgspec.json                               
+-a----         6/18/2026  11:09 AM           1131 arcade-server.csproj.nuget.g.props                                   
+-a----         6/18/2026  11:09 AM            150 arcade-server.csproj.nuget.g.targets                                 
+-a----         6/18/2026  11:53 AM           3933 project.assets.json                                                  
+-a----         6/18/2026  11:53 AM            839 project.nuget.cache                                                  
+-a----         6/18/2026  11:53 AM           1473 project.packagespec.json                                             
+-a----         6/18/2026  11:54 AM             20 rider.project.model.nuget.info                                       
+-a----         6/18/2026  11:53 AM             20 rider.project.restore.info                                           
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj\Debug
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:53 AM                net9.0                                                               
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj\Debug\net9.0
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:46 AM                compressed                                                           
+d-----         6/18/2026  11:10 AM                ref                                                                  
+d-----         6/18/2026  11:10 AM                refint                                                               
+d-----         6/18/2026  11:10 AM                scopedcss                                                            
+d-----         6/18/2026  11:46 AM                staticwebassets                                                      
+-a----         6/18/2026  11:09 AM            198 .NETCoreApp,Version=v9.0.AssemblyAttributes.cs                       
+-a----         6/18/2026  11:54 AM         156160 apphost.exe                                                          
+-a----         6/18/2026  11:10 AM              0 arcade-s.C04BEB88.Up2Date                                            
+-a----         6/18/2026  11:09 AM           1013 arcade-server.AssemblyInfo.cs                                        
+-a----         6/18/2026  11:09 AM             66 arcade-server.AssemblyInfoInputs.cache                               
+-a----         6/18/2026  11:53 AM            745 arcade-server.assets.cache                                           
+-a----         6/18/2026  11:45 AM           1237 arcade-server.csproj.AssemblyReference.cache                         
+-a----         6/18/2026  11:46 AM             66 arcade-server.csproj.CoreCompileInputs.cache                         
+-a----         6/18/2026  11:46 AM           9607 arcade-server.csproj.FileListAbsolute.txt                            
+-a----         6/18/2026  11:54 AM          23040 arcade-server.dll                                                    
+-a----         6/18/2026  11:53 AM           2954 arcade-server.GeneratedMSBuildEditorConfig.editorconfig              
+-a----         6/18/2026  11:10 AM             66 arcade-server.genruntimeconfig.cache                                 
+-a----         6/18/2026  11:53 AM            642 arcade-server.GlobalUsings.g.cs                                      
+-a----         6/18/2026  11:54 AM              0 arcade-server.MvcApplicationPartsAssemblyInfo.cache                  
+-a----         6/18/2026  11:54 AM          34448 arcade-server.pdb                                                    
+-a----         6/18/2026  11:10 AM            171 arcade-server.sourcelink.json                                        
+-a----         6/18/2026  11:46 AM          56709 rbcswa.dswa.cache.json                                               
+-a----         6/18/2026  11:46 AM           2557 rjimswa.dswa.cache.json                                              
+-a----         6/18/2026  11:54 AM           3402 rjsmcshtml.dswa.cache.json                                           
+-a----         6/18/2026  11:54 AM           3402 rjsmrazor.dswa.cache.json                                            
+-a----         6/18/2026  11:47 AM          44679 rpswa.dswa.cache.json                                                
+-a----         6/18/2026  11:46 AM         201273 staticwebassets.build.endpoints.json                                 
+-a----         6/18/2026  11:46 AM         319909 staticwebassets.build.json                                           
+-a----         6/18/2026  11:46 AM             44 staticwebassets.build.json.cache                                     
+-a----         6/18/2026  11:46 AM          14279 staticwebassets.development.json                                     
+-a----         6/18/2026  11:46 AM              0 swae.build.ex.cache                                                  
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj\Debug\net9.0\compressed
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:46 AM          91823 1d4qxoqc06-{0}-v0zj4ognzu-v0zj4ognzu.gz                              
+-a----         6/18/2026  11:46 AM          30974 1rgqtrkzqx-{0}-43atpzeawx-43atpzeawx.gz                              
+-a----         6/18/2026  11:46 AM          92072 2u7o1za7g7-{0}-6pdc2jztkx-6pdc2jztkx.gz                              
+-a----         6/18/2026  11:46 AM          12586 3dedqty4ij-{0}-fsbi9cje9m-fsbi9cje9m.gz                              
+-a----         6/18/2026  11:46 AM          16642 3q62cvy3ev-{0}-4d85u1mtcx-4d85u1mtcx.gz                              
+-a----         6/18/2026  11:46 AM          86961 4j21y776db-{0}-iovd86k7lj-iovd86k7lj.gz                              
+-a----         6/18/2026  11:46 AM          64434 4mncm7b8ja-{0}-h1s4sie4z3-h1s4sie4z3.gz                              
+-a----         6/18/2026  11:46 AM          32794 6vv702dw78-{0}-c2jlpeoesf-c2jlpeoesf.gz                              
+-a----         6/18/2026  11:46 AM           1764 75hq6em043-{0}-ok68b0p5hu-ok68b0p5hu.gz                              
+-a----         6/18/2026  11:46 AM           1571 79193t9g3u-{0}-khy4lop6wu-khy4lop6wu.gz                              
+-a----         6/18/2026  11:46 AM          11067 79uk64y5jq-{0}-wl58j5mj3v-wl58j5mj3v.gz                              
+-a----         6/18/2026  11:46 AM          12033 7hzdknx7wk-{0}-d4r6k3f320-d4r6k3f320.gz                              
+-a----         6/18/2026  11:46 AM          18643 96wmzmc7tz-{0}-8vyfqsqgz1-8vyfqsqgz1.gz                              
+-a----         6/18/2026  11:46 AM           5973 9e62s9onrv-{0}-sejl45xvog-sejl45xvog.gz                              
+-a----         6/18/2026  11:46 AM          24308 b1m1068zbp-{0}-nvvlpmu67g-nvvlpmu67g.gz                              
+-a----         6/18/2026  11:46 AM           6755 b3bjrivhkh-{0}-xvp3kq03qx-xvp3kq03qx.gz                              
+-a----         6/18/2026  11:46 AM          91715 bxuuxaxlws-{0}-ft3s53vfgj-ft3s53vfgj.gz                              
+-a----         6/18/2026  11:46 AM          25822 d1kxtpaiiq-{0}-fvhpjtyr6v-fvhpjtyr6v.gz                              
+-a----         6/18/2026  11:46 AM          12081 d9knh8njvj-{0}-gye83jo8yx-gye83jo8yx.gz                              
+-a----         6/18/2026  11:46 AM           3217 dneonevc0i-{0}-tmc1g35s3z-tmc1g35s3z.gz                              
+-a----         6/18/2026  11:46 AM           3407 ehtg0rsokv-{0}-qesaa3a1fm-qesaa3a1fm.gz                              
+-a----         6/18/2026  11:46 AM         114959 ejn9if13su-{0}-hrwsygsryq-hrwsygsryq.gz                              
+-a----         6/18/2026  11:46 AM          13822 emvpe9ga7i-{0}-aexeepp0ev-aexeepp0ev.gz                              
+-a----         6/18/2026  11:46 AM         115016 fs1qircae9-{0}-pj5nd1wqec-pj5nd1wqec.gz                              
+-a----         6/18/2026  11:46 AM           3397 fuzkbbw2sy-{0}-rxsg74s51o-rxsg74s51o.gz                              
+-a----         6/18/2026  11:46 AM          44124 g3omnqr0kv-{0}-r4e9w2rdcm-r4e9w2rdcm.gz                              
+-a----         6/18/2026  11:46 AM           6754 g6gq4t1qj4-{0}-t1cqhe9u97-t1cqhe9u97.gz                              
+-a----         6/18/2026  11:46 AM          56670 gpm15x8i0o-{0}-y7v9cxd14o-y7v9cxd14o.gz                              
+-a----         6/18/2026  11:46 AM          30998 h3i7wovbr8-{0}-c63t5i9ira-c63t5i9ira.gz                              
+-a----         6/18/2026  11:46 AM          32793 h7032t5n50-{0}-ausgxo2sd3-ausgxo2sd3.gz                              
+-a----         6/18/2026  11:46 AM          44681 hjw15qp3fs-{0}-4094rpi4f9-4094rpi4f9.gz                              
+-a----         6/18/2026  11:46 AM           1764 i5nq9kzqm5-{0}-ok68b0p5hu-ok68b0p5hu.gz                              
+-a----         6/18/2026  11:46 AM          29042 i98qehw95m-{0}-ltid2c489k-ltid2c489k.gz                              
+-a----         6/18/2026  11:46 AM          29815 ijpezvyzld-{0}-u9q1upor1n-u9q1upor1n.gz                              
+-a----         6/18/2026  11:46 AM          24352 jqnpkw6j60-{0}-c2oey78nd0-c2oey78nd0.gz                              
+-a----         6/18/2026  11:46 AM          25833 kwm7f1yvd3-{0}-ee0r1s7dh0-ee0r1s7dh0.gz                              
+-a----         6/18/2026  11:46 AM           5976 lhjpgdgs3w-{0}-22vffe00uq-22vffe00uq.gz                              
+-a----         6/18/2026  11:46 AM          13829 pq8c0gxbc3-{0}-cosvhxvwiu-cosvhxvwiu.gz                              
+-a----         6/18/2026  11:46 AM          33525 rim9u8lre9-{0}-zub09dkrxp-zub09dkrxp.gz                              
+-a----         6/18/2026  11:46 AM          33382 rqh0ci34ep-{0}-ynyaa8k90p-ynyaa8k90p.gz                              
+-a----         6/18/2026  11:46 AM          11050 sqc9aziiia-{0}-keugtjm085-keugtjm085.gz                              
+-a----         6/18/2026  11:46 AM          64134 ts1rkcenm2-{0}-kbrnm935zg-kbrnm935zg.gz                              
+-a----         6/18/2026  11:46 AM          55850 uiw04lchda-{0}-0j3bgjxly4-0j3bgjxly4.gz                              
+-a----         6/18/2026  11:46 AM          23992 wb5pmn6m3a-{0}-hd3gran6i8-hd3gran6i8.gz                              
+-a----         6/18/2026  11:46 AM          44097 x0n366s58k-{0}-j5mq2jizvt-j5mq2jizvt.gz                              
+-a----         6/18/2026  11:46 AM          15095 x68nggkp6k-{0}-jd9uben2k1-jd9uben2k1.gz                              
+-a----         6/18/2026  11:46 AM           3250 ymc8zisy2a-{0}-q9ht133ko3-q9ht133ko3.gz                              
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj\Debug\net9.0\ref
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:47 AM           8192 arcade-server.dll                                                    
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj\Debug\net9.0\refint
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:54 AM           8192 arcade-server.dll                                                    
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj\Debug\net9.0\scopedcss
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:10 AM                bundle                                                               
+d-----         6/18/2026  11:10 AM                Components                                                           
+d-----         6/18/2026  11:10 AM                projectbundle                                                        
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj\Debug\net9.0\scopedcss\bundle
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:46 AM           5929 arcade-server.styles.css                                             
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj\Debug\net9.0\scopedcss\Components
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:10 AM                Layout                                                               
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj\Debug\net9.0\scopedcss\Components\Layout
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:10 AM           2172 MainLayout.razor.rz.scp.css                                          
+-a----         6/18/2026  11:10 AM           3652 NavMenu.razor.rz.scp.css                                             
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\obj\Debug\net9.0\scopedcss\projectbundle
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:46 AM           5929 arcade-server.bundle.scp.css                                         
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\Properties
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:09 AM            681 launchSettings.json                                                  
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\wwwroot
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:09 AM                lib                                                                  
+-a----         6/18/2026  11:09 AM           2900 app.css                                                              
+-a----         6/18/2026  11:09 AM           1148 favicon.png                                                          
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\wwwroot\lib
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:09 AM                bootstrap                                                            
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\wwwroot\lib\bootstrap
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:09 AM                dist                                                                 
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\wwwroot\lib\bootstrap\dist
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         6/18/2026  11:09 AM                css                                                                  
+d-----         6/18/2026  11:09 AM                js                                                                   
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\wwwroot\lib\bootstrap\dist\css
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:09 AM          74413 bootstrap-grid.css                                                   
+-a----         6/18/2026  11:09 AM         203221 bootstrap-grid.css.map                                               
+-a----         6/18/2026  11:09 AM          51800 bootstrap-grid.min.css                                               
+-a----         6/18/2026  11:09 AM         115986 bootstrap-grid.min.css.map                                           
+-a----         6/18/2026  11:09 AM          74486 bootstrap-grid.rtl.css                                               
+-a----         6/18/2026  11:09 AM         203225 bootstrap-grid.rtl.css.map                                           
+-a----         6/18/2026  11:09 AM          51875 bootstrap-grid.rtl.min.css                                           
+-a----         6/18/2026  11:09 AM         116063 bootstrap-grid.rtl.min.css.map                                       
+-a----         6/18/2026  11:09 AM          12661 bootstrap-reboot.css                                                 
+-a----         6/18/2026  11:09 AM         129371 bootstrap-reboot.css.map                                             
+-a----         6/18/2026  11:09 AM          10131 bootstrap-reboot.min.css                                             
+-a----         6/18/2026  11:09 AM          51369 bootstrap-reboot.min.css.map                                         
+-a----         6/18/2026  11:09 AM          12651 bootstrap-reboot.rtl.css                                             
+-a----         6/18/2026  11:09 AM         129386 bootstrap-reboot.rtl.css.map                                         
+-a----         6/18/2026  11:09 AM          10203 bootstrap-reboot.rtl.min.css                                         
+-a----         6/18/2026  11:09 AM          63943 bootstrap-reboot.rtl.min.css.map                                     
+-a----         6/18/2026  11:09 AM         113224 bootstrap-utilities.css                                              
+-a----         6/18/2026  11:09 AM         267535 bootstrap-utilities.css.map                                          
+-a----         6/18/2026  11:09 AM          85357 bootstrap-utilities.min.css                                          
+-a----         6/18/2026  11:09 AM         180381 bootstrap-utilities.min.css.map                                      
+-a----         6/18/2026  11:09 AM         113083 bootstrap-utilities.rtl.css                                          
+-a----         6/18/2026  11:09 AM         267476 bootstrap-utilities.rtl.css.map                                      
+-a----         6/18/2026  11:09 AM          85286 bootstrap-utilities.rtl.min.css                                      
+-a----         6/18/2026  11:09 AM         180217 bootstrap-utilities.rtl.min.css.map                                  
+-a----         6/18/2026  11:09 AM         293102 bootstrap.css                                                        
+-a----         6/18/2026  11:09 AM         679755 bootstrap.css.map                                                    
+-a----         6/18/2026  11:09 AM         232808 bootstrap.min.css                                                    
+-a----         6/18/2026  11:09 AM         589892 bootstrap.min.css.map                                                
+-a----         6/18/2026  11:09 AM         292288 bootstrap.rtl.css                                                    
+-a----         6/18/2026  11:09 AM         679615 bootstrap.rtl.css.map                                                
+-a----         6/18/2026  11:09 AM         232916 bootstrap.rtl.min.css                                                
+-a----         6/18/2026  11:09 AM         589087 bootstrap.rtl.min.css.map                                            
+
+
+    Directory: S:\esp32\mpy-multi-screens-arcade\server\arcade-server\wwwroot\lib\bootstrap\dist\js
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         6/18/2026  11:09 AM         214133 bootstrap.bundle.js                                                  
+-a----         6/18/2026  11:09 AM         444579 bootstrap.bundle.js.map                                              
+-a----         6/18/2026  11:09 AM          80727 bootstrap.bundle.min.js                                              
+-a----         6/18/2026  11:09 AM         332090 bootstrap.bundle.min.js.map                                          
+-a----         6/18/2026  11:09 AM         140276 bootstrap.esm.js                                                     
+-a----         6/18/2026  11:09 AM         305438 bootstrap.esm.js.map                                                 
+-a----         6/18/2026  11:09 AM          73941 bootstrap.esm.min.js                                                 
+-a----         6/18/2026  11:09 AM         222455 bootstrap.esm.min.js.map                                             
+-a----         6/18/2026  11:09 AM         149895 bootstrap.js                                                         
+-a----         6/18/2026  11:09 AM         306606 bootstrap.js.map                                                     
+-a----         6/18/2026  11:09 AM          60641 bootstrap.min.js                                                     
+-a----         6/18/2026  11:09 AM         220561 bootstrap.min.js.map
